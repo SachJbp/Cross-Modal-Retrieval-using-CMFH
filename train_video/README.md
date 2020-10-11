@@ -1,0 +1,1 @@
+Download MSR-VTT-10K training videos in this folder

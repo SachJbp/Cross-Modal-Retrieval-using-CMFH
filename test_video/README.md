@@ -1,0 +1,1 @@
+Download MSR-VTT-10K testing videos in this folder
