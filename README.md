@@ -1,6 +1,6 @@
 # Cross-Modal-Retrieval-using-CMFH
 
-This is an implenmentation of Cross-Modal retrival using Collection Matrix Factorization Hashing (CMFH) published in [link](http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf). It helps us to generate unified embeddings for different modes of data. In this repo we demonstrate training and testing for video-text and text-video retrievals on MSR-VTT-10K dataset.
+This is an implementation of Cross-Modal retrieval using Collective Matrix Factorization Hashing (CMFH) published in [link](http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf). It helps us to generate unified embeddings for different modes of data. In this repo we demonstrate training and testing for video-text and text-video retrievals on MSR-VTT-10K dataset.
 
 To train CMFH from scratch follow these steps:
 
