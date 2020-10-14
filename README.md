@@ -1,10 +1,10 @@
 # Cross-Modal-Retrieval-using-CMFH
 
-This is an implementation of Cross-Modal retrieval using Collective Matrix Factorization Hashing (CMFH) published in [link](http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf). It helps us to generate unified embeddings for different modes of data. In this repo we demonstrate training and testing for video-text and text-video retrievals on MSR-VTT-10K dataset.
+This is my implementation of Cross-Modal retrieval using Collective Matrix Factorization Hashing (CMFH) originally described in [link](http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf). CMFH helps us to generate unified embeddings for different modes of data in such a way that similar semantic data is nearer ( For eg, a video and its corresponding text being nearer in the common embedding space). In this repo, we demonstrate training and testing for video-text and text-video retrievals on MSR-VTT-10K dataset.
 
 To train CMFH from scratch follow these steps:
 
-1) Since, generation of feature matrices is a time comsuming task, you may want to download the precomputed feature matrices [X1](https://drive.google.com/file/d/1-wi8A6UuQxhpffeBnkjmML4ipOL5AxpS/view?usp=sharing) ,[X2](https://drive.google.com/file/d/1-xYAKsnN7gzVJdoSHr61aIyGmFi2mdqb/view?usp=sharing) and put it in feature_matrices folder.
+1) Since, generation of feature matrices is a time comsuming task, you may want to download the precomputed feature matrices [X1](https://drive.google.com/file/d/1-wi8A6UuQxhpffeBnkjmML4ipOL5AxpS/view?usp=sharing) for training videos ,[X2](https://drive.google.com/file/d/1-xYAKsnN7gzVJdoSHr61aIyGmFi2mdqb/view?usp=sharing) for corresponding texts and put it in feature_matrices folder. Feature matrices are of dimension (d * n) where where d is the length of embedding a single video or a text and n is the number of samples in training set.
 
 For folks willing to generate feature matrices themselves, can download the train videos from [here](https://www.mediafire.com/folder/h14iarbs62e7p/shared?fbclid=IwAR3ZsoQiKf_SZjV15sGyoSr20C8A2FteXgoXS0B2Acgzq1wLpZzERP76ktc) and put them in respective folder. 
 
