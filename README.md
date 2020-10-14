@@ -14,4 +14,4 @@ For folks willing to generate feature matrices themselves, can download the trai
 
 For folks , just interested in testing the joint embeddings for video-text and text-video retrievals can follow these steps:
 1) Download pre-trained projection matrices P1 from [here](https://drive.google.com/file/d/1k-WjlaCeFdgx20cZlAaDp9tmQVE6Tiw0/view?usp=sharing) and P2 from [here](https://drive.google.com/file/d/1-2vcpE3zjdrDrXbFe9ihdN9uGVY6Tsuz/view?usp=sharing) and save them as P1.npy and P2.npy respectively in projection_matrices folder.
-2) Run the cells in test notebook as instructed to run the webapp  
+2) Run the cells in test notebook as instructed to run the webapp and play around by entering YouTube IDs of smaller videos(< 1 min ) and get the matching texts from MSR-VTT-10K training data texts or enter a sentence and get top 10 relevant video YouTubeIDs from MSR-VTT-10K training videos. 
