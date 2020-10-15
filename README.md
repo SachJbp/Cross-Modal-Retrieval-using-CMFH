@@ -4,7 +4,7 @@ This is my implementation of Cross-Modal retrieval using Collective Matrix Facto
 
 To train CMFH from scratch follow these steps:
 
-1) Since, generation of feature matrices is a time comsuming task, you may want to download the precomputed feature matrices [X1](https://drive.google.com/file/d/1n8YSl67smU1Kp_F2yQD1HJMrVFUs1qgi/view?usp=sharing) for training videos ,[X2](https://drive.google.com/file/d/1Aso3fYLRGnzYjvpwir7BrT0ifCaYBacg/view?usp=sharing) for corresponding texts and put it in feature_matrices folder. Feature matrices are of dimension (d * n) where where d is the length of embedding a single video or a text and n is the number of samples in training set.
+1) Since, generation of feature matrices is a time comsuming task, you may want to download the precomputed feature matrices [X1](https://drive.google.com/file/d/1n8YSl67smU1Kp_F2yQD1HJMrVFUs1qgi/view?usp=sharing) for training videos ,[X2](https://drive.google.com/file/d/1Aso3fYLRGnzYjvpwir7BrT0ifCaYBacg/view?usp=sharing) for training annotated texts, [X1_test](https://drive.google.com/file/d/1Aa42WnOK1u0rkULDw5wGk2TV25rFvHWq/view?usp=sharing) for test videos and [X2_test](https://drive.google.com/file/d/1rospQzlPUSKnxQB26BApojWhLiKVP1A-/view?usp=sharing) for test annotated texts and put it in feature_matrices folder. Feature matrices are of dimension (d * n) where where d is the length of embedding a single video or a text and n is the number of samples in training set.
 
 For folks willing to generate feature matrices themselves, can download the train videos from [here](https://www.mediafire.com/folder/h14iarbs62e7p/shared?fbclid=IwAR3ZsoQiKf_SZjV15sGyoSr20C8A2FteXgoXS0B2Acgzq1wLpZzERP76ktc) and put them in respective folder. 
 
